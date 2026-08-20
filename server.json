@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/cnj_seeu_processos-mcp",
+  "title": "Conselho Nacional de Justiça SEEU: Processos",
+  "description": "Conselho Nacional de Justiça SEEU: Court Cases, official-source lookup. Platform-hosted, pay per que",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/cnj_seeu_processos-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_cnj_seeu_processos"
+    }
+  ]
+}
